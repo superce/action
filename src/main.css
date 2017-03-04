@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+
+  height: 100%;
+  -webkit-overflow-scrolling:touch;
+  /*兼容苹果手机滑动效果*/
+}
+
+.root{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header{
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  background: -webkit-gradient(linear, 0 0, 0 90%, from(black), to(red));
+  justify-content:space-between;
+  padding: 0 5px;
+}
+footer{
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background: -webkit-gradient(linear, 0 0, 0 90%, from(red), to(black));
+
+
+}
+footer a{
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  flex-grow: 1;
+  color: #fff;
+
+}
+footer a:last-child{
+  border-right: none;
+}
+.mywrap{
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+}
+.home{
+  width:100%;
+  background-image: url(./img/1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.home-cover{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home-cover a{
+  font-size: 70px;
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  margin: 0 auto;;
+}
+.home-cover,h1,p{
+  color:red;
+  font-size: 30px
+}
