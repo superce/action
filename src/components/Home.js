@@ -9,7 +9,7 @@ class Home extends React.Component {
 
           <h1>888</h1>
           <p>webkit-gradient</p>
-          <a href='http://www.baidu.com'><i className="fa fa-hand-o-up" aria-hidden="true"></i></a>
+          <a href='https://superce.github.io/demo-09'><i className="fa fa-hand-o-up" aria-hidden="true"></i></a>
         </div>
       </div>
     )

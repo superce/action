@@ -16,6 +16,35 @@ html,body,#root{
   flex-direction: column;
   height: 100%;
 }
+@media(min-width:500px){
+  .root{
+    flex-direction:row;
+
+  }
+}
+.LeftNav{
+  background-color: green;
+  width: 200px
+
+}
+.LeftNav h3{
+  text-align: center;
+  color: #fff;
+  line-height: 2.1;
+  font-size: 24px;
+  border-bottom: 2px solid #fff;
+  letter-spacing: 2px
+}
+.LeftNav a{
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 2.2;
+  position:20px;
+}
+.LeftNav a:hover{
+  background-color: rgba(0,0,0,0.3);
+}
 header{
   height: 80px;
   flex-shrink: 0;
@@ -24,6 +53,9 @@ header{
   background: -webkit-gradient(linear, 0 0, 0 90%, from(black), to(red));
   justify-content:space-between;
   padding: 0 5px;
+}
+header i{
+  cursor: pointer;
 }
 footer{
   height: 80px;
@@ -55,7 +87,7 @@ footer a:last-child{
   width:100%;
   background-image: url(./img/1.jpg);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 35% 50%;
 }
 .home-cover{
   height: 100%;
@@ -71,7 +103,7 @@ footer a:last-child{
   display: block;
   width: 50%;
   margin: 0 auto;
-  
+
 }
 .home-cover,h1,p{
   color:red;

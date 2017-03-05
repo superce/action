@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import {Router,Route,browserHistory,IndexRoute} from 'react-router';
+import {Router,Route,hashHistory,IndexRoute} from 'react-router';
 
 
 import App from './App';
@@ -10,7 +10,7 @@ import Work from './components/Work'
 import Post from './components/Post'
 export default function(){
   return(
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
       <Route path='/' component={App}>
         <IndexRoute component={Home} />
         <Route path='blog' component={Blog}/>
