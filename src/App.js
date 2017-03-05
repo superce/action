@@ -17,8 +17,8 @@ class App extends React.Component {
     this.setTitle()
   }
   setLeftNav(){
-    
-    this.setState({showLeftNav: window.innerWidth>750/1.5 ? true : false})
+
+    this.setState({showLeftNav: window.innerWidth>750 ? true : false})
   }
   componentWillReceiveProps(){
     this.setTitle();
