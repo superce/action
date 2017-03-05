@@ -6,11 +6,12 @@ class Home extends React.Component {
 
       <div className='home'>
         <div className='home-cover'>
-
+         <div>
           <h1>888</h1>
           <p>webkit-gradient</p>
           <a href='https://superce.github.io/demo-09'><i className="fa fa-hand-o-up" aria-hidden="true"></i></a>
-        </div>
+         </div>
+      </div>
       </div>
     )
   }
