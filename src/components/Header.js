@@ -4,9 +4,9 @@ class Header extends React.Component {
   render () {
     return(
       <header>
-        <button><i className="fa fa-arrow-left" aria-hidden="true"></i></button>
+        <i className="fa fa-arrow-left" aria-hidden="true"></i>
           <h3>我的博客</h3>
-        <button><i className="fa fa-home" aria-hidden="true"></i></button>
+        <i className="fa fa-home" aria-hidden="true"></i>
       </header>
     )
 

@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Blog from './components/Blog'
 import About from './components/About'
 import Work from './components/Work'
+import Post from './components/Post'
 export default function(){
   return(
     <Router history={browserHistory}>
@@ -15,6 +16,8 @@ export default function(){
         <Route path='blog' component={Blog}/>
         <Route path='about' component={About}/>
         <Route path='Work' component={Work}/>
+        <Route path='Post/:title' component={Post}/>
+
       </Route>
     </Router>
   )
