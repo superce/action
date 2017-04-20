@@ -23,16 +23,17 @@ html,body,#root{
   }
 }
 .LeftNav{
-  background-color: green;
+  background-color: #000;
   width: 200px
 
 }
 .LeftNav h3{
+  color:red;
   text-align: center;
-  color: #fff;
+
   line-height: 2.1;
   font-size: 24px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid red;
   letter-spacing: 2px
 }
 .LeftNav a{
@@ -42,8 +43,12 @@ html,body,#root{
   line-height: 2.2;
   position:20px;
 }
+.LeftNav a:first-child{
+  background-color:red;
+}
 .LeftNav a:hover{
-  background-color: rgba(0,0,0,0.3);
+  background-color: red;
+
 }
 header{
   height: 80px;
